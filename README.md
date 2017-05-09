@@ -1,6 +1,7 @@
 # CheckAppID
 The android library checks for the application id that matches the application id on the server
 ## Screenshot
+
 ## SDK Support
 Support from SDK version 14 onwards
 ## JSON on Server
@@ -12,8 +13,8 @@ Support from SDK version 14 onwards
 ]}
 ```
 ## Download
-JitPack:
-Step 1. Add the JitPack repository to your build file
+JitPack:<br>
+Step 1. Add the JitPack repository to your build file<br>
 Add it in your root build.gradle at the end of repositories:
 ```groovy
 allprojects {
@@ -42,6 +43,6 @@ Add in your activity to check every day once
 new CheckAppID(this,
                 "https://yourServer/yourFile.json",
                 "your-email@gmail.com")
-                ..executeDayByDay();
+                .executeDayByDay();
 ```
 ## About
