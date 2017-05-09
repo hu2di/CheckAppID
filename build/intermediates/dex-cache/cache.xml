@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\Documents\GitHub\CheckAppID\checkidlib\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4414ffef9adc60556282232fddbd01377c33c76f">
+        <dex dex="D:\Documents\GitHub\CheckAppID\app\build\intermediates\pre-dexed\debug\classes_1dbebfc82334835403ab587cc9d95faa89800ca1.jar" />
+    </item>
+
+</items>
