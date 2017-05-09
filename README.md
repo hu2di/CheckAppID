@@ -30,4 +30,18 @@ dependencies {
 }
 ```
 ## Example
+Add in your activity to check every application is opened
+```java
+new CheckAppID(this,
+                "https://yourServer/yourFile.json",
+                "your-email@gmail.com")
+                .execute();
+```
+Add in your activity to check every day once
+```java
+new CheckAppID(this,
+                "https://yourServer/yourFile.json",
+                "your-email@gmail.com")
+                ..executeDayByDay();
+```
 ## About
