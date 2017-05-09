@@ -1,7 +1,7 @@
 # CheckAppID
 The android library checks for the application id that matches the application id on the server
 ## Screenshot
-
+<img src="https://raw.githubusercontent.com/hu2di/CheckAppID/master/Screenshot/screenshot.png">
 ## SDK Support
 Support from SDK version 14 onwards
 ## JSON on Server
@@ -46,3 +46,6 @@ new CheckAppID(this,
                 .executeDayByDay();
 ```
 ## About
+Created by HuyHung Dinh<br>
+GitHub: https://github.com/hu2di<br>
+Email: hebitaxy@gmail.com
