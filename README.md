@@ -4,6 +4,13 @@ The android library checks for the application id that matches the application i
 ## SDK Support
 Support from SDK version 14 onwards
 ## JSON on Server
+```json
+{ "data":[
+	{"package":"com.blogspot.hu2di.test1"},
+	{"package":"com.blogspot.hu2di.test2"},
+	{"package":"com.blogspot.hu2di.test3"}
+]}
+```
 ## Download
 JitPack:
 Step 1. Add the JitPack repository to your build file
