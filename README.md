@@ -39,16 +39,18 @@ dependencies {
 Add in your activity to check every application is opened
 ```java
 new CheckAppID(this,
-                "https://yourServer/yourFile.json", //Example: https://raw.githubusercontent.com/hu2di/CheckAppID/master/Server/CheckAppIds.json
-                "your-email@gmail.com")
-                .execute();
+        "https://yourServer/yourFile.json", 
+	//Ex: https://raw.githubusercontent.com/hu2di/CheckAppID/master/Server/CheckAppIds.json
+        "your-email@gmail.com")
+        .execute();
 ```
 Add in your activity to check every day once
 ```java
 new CheckAppID(this,
-                "https://yourServer/yourFile.json", //Example: https://raw.githubusercontent.com/hu2di/CheckAppID/master/Server/CheckAppIds.json
-                "your-email@gmail.com")
-                .executeDayByDay();
+        "https://yourServer/yourFile.json", 
+	//Ex: https://raw.githubusercontent.com/hu2di/CheckAppID/master/Server/CheckAppIds.json
+        "your-email@gmail.com")
+        .executeDayByDay();
 ```
 
 ## About
